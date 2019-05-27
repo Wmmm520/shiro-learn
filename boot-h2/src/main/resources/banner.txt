@@ -1,0 +1,24 @@
+${AnsiColor.BRIGHT_GREEN}
+                   __..\/      "You know, I am thinking
+                  /\ \  \\         whether I should
+                 /_/\_.___\      )     quit smoking."
+                /\~()/()~//\     ((
+                \_  (_    _/      )_
+                  \ //\\ /        //
+                __/\ __ /\__   (\(((\
+ ~-._          /  \ \  / /  \   \___/
+     ~-._     /    \/\/\/    \  /   /
+         ~-._/      \../      \/   /
+             |   |   \/ __\       /
+             |   |   o     \_____/
+             |   |   o     |
+             |   |   o     |~-._
+             |   |___/\____|    ~-._
+             \___|         |
+              \  |    |    |
+               `-|    |    |
+                 |    |    | sanm
+
+${AnsiColor.BRIGHT_RED}
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
