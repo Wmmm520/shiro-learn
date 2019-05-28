@@ -8,7 +8,8 @@
              relativeToChangelogFile="false"/>
 
     <!-- sanm-needle-liquibase-add-changelog - sanm will add liquibase changelogs here -->
-    <include file="classpath:config/liquibase/changelog/20190527001-change-student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20190527000003_added_entity_student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20190528000001_added_entity_teacher.xml" relativeToChangelogFile="false"/>
 
     <!-- sanm-needle-liquibase-add-constraints-changelog - sanm will add liquibase constraints changelogs here -->
     <include file="classpath:config/liquibase/changelog/20190527001_import_data.xml"
