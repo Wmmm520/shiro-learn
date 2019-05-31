@@ -25,13 +25,6 @@
             <column name="account" type="varchar(50)"/>
         </createIndex>
 
-        <loadData encoding="UTF-8"
-                  file="config/liquibase/dev/teacher.csv"
-                  separator=";"
-                  tableName="teacher">
-        </loadData>
-
-
     </changeSet>
 
 </databaseChangeLog>

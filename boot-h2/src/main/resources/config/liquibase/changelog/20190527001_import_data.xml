@@ -14,10 +14,10 @@
                   file="config/liquibase/dev/student.csv"
                   separator=";"
                   tableName="student"/>
-        <!--<loadData encoding="UTF-8"-->
-                  <!--file="config/liquibase/dev/teacher.csv"-->
-                  <!--separator=";"-->
-                  <!--tableName="teacher"/>-->
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/dev/teacher.csv"
+                  separator=";"
+                  tableName="teacher"/>
     </changeSet>
 
     <changeSet id="20190527002" author="sanm" context="prod">

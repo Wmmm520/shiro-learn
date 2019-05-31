@@ -4,7 +4,7 @@ spring:
     # \u542F\u7528sql\u8BED\u53E5\u7684\u65E5\u5FD7\u8BB0\u5F55
     show-sql: true
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
   datasource:
     url: jdbc:h2:mem:sanm

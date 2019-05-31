@@ -13,24 +13,17 @@
             <column name="id" type="bigint" autoIncrement="${autoIncrement}">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="account" type="varchar(50)">
+            <column name="account" type="varchar(100)">
                 <constraints unique="true" nullable="false"/>
             </column>
-            <column name="password" type="varchar(60)"/>
-            <column name="name" type="varchar(50)"/>
+            <column name="password" type="varchar(100)"/>
+            <column name="name" type="varchar(100)"/>
         </createTable>
-        <createIndex indexName="t_student_login"
+        <createIndex indexName="student_account"
                      tableName="student"
                      unique="true">
-            <column name="account" type="varchar(50)"/>
+            <column name="account" type="varchar(100)"/>
         </createIndex>
-
-        <loadData encoding="UTF-8"
-                  file="config/liquibase/dev/student.csv"
-                  separator=";"
-                  tableName="student">
-        </loadData>
-
 
     </changeSet>
 
